@@ -1,5 +1,4 @@
 
-
 const Packages = () => {
     return (
         <div className="content-box">
