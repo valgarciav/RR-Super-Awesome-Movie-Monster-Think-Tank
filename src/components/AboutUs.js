@@ -1,3 +1,4 @@
+import App from "../App";
 
 const AboutUs = () => {
   return (

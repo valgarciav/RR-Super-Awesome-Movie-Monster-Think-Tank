@@ -1,9 +1,10 @@
 import React, { Suspense } from "react";
 import "./App.css";
+import Loader from "react-loader-spinner";
 
 function App() {
-  const AboutUs = React.lazy(() => import("./AboutUs"));
-  const Packages = React.lazy(() => import("./Packages"));
+  const AboutUs = React.lazy(() => import("../src/components/AboutUs"));
+  const Packages = React.lazy(() => import("../src/components/Packages"));
   return (
     <div className="App">
       <h1>Lonzo's Travel Agency</h1>
